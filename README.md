@@ -1,24 +1,28 @@
-Conception d'un Panneau Photovoltaïque Mural avec Dispositif Suiveur
-Description
-Ce dépôt contient le rapport et les ressources associées à notre projet de fin d'année (PFA) réalisé en 2ème année Génie Mécanique à l'École Nationale d'Ingénieurs de Tunis (ENIT) pour l'année universitaire 2025/2026. Le projet porte sur la conception d'un panneau photovoltaïque mural optimisé pour l'autoconsommation, intégrant un dispositif suiveur solaire à un axe pour maximiser la récupération d'énergie.
-Réalisé par : Snoussi Syrine Sara et Taamallah Haithem
-Encadré par : M. Jemmali Mohamed
-Objectifs Principaux
+# Conception d'un Panneau Photovoltaïque Mural avec Dispositif Suiveur Solaire
 
-Analyser le contexte énergétique et le fonctionnement des panneaux PV.
-Modéliser géométriquement la position solaire et simuler l'énergie récupérable via un code Python.
-Concevoir et intégrer un suiveur mécanique (avec vérin électrique, biellettes, etc.) modélisé sous CATIA V5.
-Optimiser l'orientation (angles β et γ) pour réduire l'angle d'incidence et augmenter l'efficacité.
+**Rapport de Projet de Fin d'Année**  
+**2ᵉ Année Génie Mécanique**  
+**École Nationale d'Ingénieurs de Tunis (ENIT)**  
+**Université de Tunis El Manar**  
+**Année universitaire : 2025/2026**
 
-Contenu du Dépôt
+**Réalisé par :**  
+- Snoussi Syrine Sara  
+- Taamallah Haithem  
 
-Rapport PDF : Document complet (62 pages) incluant modélisation analytique, simulations numériques, schémas cinématiques et résultats.
-Code Python : Algorithmes pour le calcul de l'azimut, élévation, irradiance et énergie annuelle.
-Modèles CATIA : Fichiers de conception du châssis, support, vérin et mécanisme de suivi.
-Figures et Données : Graphiques d'évolution des angles solaires, cos(θ) et intensités pour différentes configurations.
+**Encadré par :**  
+M. Jemmali Mohamed
 
-Technologies Utilisées
+## 📌 Contexte du projet
 
-Modélisation : CATIA V5
-Simulation : Python (calculs géométriques et énergétiques)
-Concepts : Rayonnement solaire (direct, diffus), angles d'incidence, mécanismes de suivi (moteurs, crémaillères, poulies, vérins).
+Ce projet vise à concevoir un **panneau photovoltaïque mural** destiné à l’autoconsommation, équipé d’un **dispositif suiveur solaire à un axe** permettant d’optimiser l’orientation du panneau tout au long de la journée afin de maximiser la quantité d’énergie solaire récupérée.
+
+## 🎯 Objectifs principaux
+
+- Étudier le contexte énergétique tunisien et le fonctionnement des cellules photovoltaïques
+- Modéliser géométriquement la trajectoire solaire et calculer l’angle d’incidence
+- Développer un code Python pour simuler l’irradiance et l’énergie annuelle récupérable selon différentes inclinaisons fixes et suiveuses
+- Concevoir mécaniquement un suiveur à un axe actionné par vérin électrique (modélisation CAO sous CATIA V5)
+- Dimensionner les composants et valider la cinématique du mécanisme
+
+## 🗂 Structure du dépôt
