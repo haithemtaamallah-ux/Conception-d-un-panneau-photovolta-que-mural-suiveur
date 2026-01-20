@@ -1,80 +1,77 @@
-# Conception d'un Panneau Photovoltaïque Mural avec Dispositif Suiveur Solaire
+# Wall-Mounted Photovoltaic Panel Design with Solar Tracking Device
 
-**Rapport de Projet de Fin d'Année**  
-**2ᵉ Année Génie Mécanique**  
-**École Nationale d'Ingénieurs de Tunis (ENIT)**  
-**Université de Tunis El Manar**  
-**Année universitaire : 2025/2026**
+**End-of-Year Project Report**  
+**2nd Year Mechanical Engineering**  
+**National Engineering School of Tunis (ENIT)**  
+**University of Tunis El Manar**  
+**Academic Year: 2025/2026**
 
-**Réalisé par :**  
+**Prepared by:**  
 - Snoussi Syrine Sara  
 - Taamallah Haithem  
 
-**Encadré par :**  
-M. Jemmali Mohamed
+**Supervised by:**  
+Mr. Jemmali Mohamed
 
-## 📌 Contexte du projet
+## 📌 Project Context
 
-Ce projet vise à concevoir un **panneau photovoltaïque mural** destiné à l’autoconsommation, équipé d’un **dispositif suiveur solaire à un axe** permettant d’optimiser l’orientation du panneau tout au long de la journée afin de maximiser la quantité d’énergie solaire récupérée.
+This project aims to design a **wall-mounted photovoltaic panel** for self-consumption, equipped with a **single-axis solar tracking device** to optimize the panel’s orientation throughout the day and maximize the amount of solar energy harvested.
 
-## 🎯 Objectifs principaux
+## 🎯 Main Objectives
 
-- Étudier le contexte énergétique tunisien et le fonctionnement des cellules photovoltaïques
-- Modéliser géométriquement la trajectoire solaire et calculer l’angle d’incidence
-- Développer un code Python pour simuler l’irradiance et l’énergie annuelle récupérable selon différentes inclinaisons fixes et suiveuses
-- Concevoir mécaniquement un suiveur à un axe actionné par vérin électrique (modélisation CAO sous CATIA V5)
-- Dimensionner les composants et valider la cinématique du mécanisme
+- Study the Tunisian energy context and the operation of photovoltaic cells  
+- Geometrically model the solar path and calculate the angle of incidence  
+- Develop Python code to simulate irradiance and annual energy yield for different fixed and tracking inclinations  
+- Mechanically design a single-axis tracker actuated by an electric actuator (CAD modeling in CATIA V5)  
+- Dimension the components and validate the mechanism’s kinematics  
 
-## 🗂 Structure du dépôt
+## 🗂 Repository Structure
 
+*(Details to be added in the GitHub repository)*
 
-## 📊 Contenu détaillé du rapport
+## 📊 Detailed Report Content
 
-### 1. Contexte et problématique
-- Situation énergétique actuelle en Tunisie
-- Structure et fonctionnement d’une cellule PV
-- Effet de l’angle d’incidence sur la production
+### 1. Context and Problem Statement
+- Current energy situation in Tunisia  
+- Structure and operation of a PV cell  
+- Effect of the incidence angle on energy production  
 
-### 2. Modélisation et simulation numérique
-- Modèle géométrique du mouvement solaire (déclinaison δ, angle horaire ω)
-- Calcul de l’angle d’incidence θ
-- Algorithme Python + validation des résultats
-- Comparaison énergie annuelle : fixe vs suiveur (différentes valeurs de β)
+### 2. Numerical Modeling and Simulation
+- Geometrical model of solar movement (declination δ, hour angle ω)  
+- Calculation of incidence angle θ  
+- Python algorithm + validation of results  
+- Annual energy comparison: fixed vs. tracking panel (different β values)  
 
-### 3. Conception mécanique du suiveur
-- Choix du type de suiveur : 1 axe (rotation β)
-- Solutions cinématiques étudiées :
-  - Moteurs / accouplements
-  - Crémaillère-pignon
-  - Poulies-courroies
-  - **Vérin électrique + biellettes** (solution retenue)
-- Dimensionnement global du panneau et du mécanisme
-- Modélisation 3D détaillée sous CATIA V5
-- Vues éclatées, assemblages, jeux fonctionnels
+### 3. Mechanical Design of the Tracker
+- Choice of tracker type: single-axis (rotation β)  
+- Kinematic solutions studied:  
+  - Motors / couplings  
+  - Rack and pinion  
+  - Pulley-belt systems  
+  - **Electric actuator + linkages** (selected solution)  
+- Overall panel and mechanism sizing  
+- Detailed 3D modeling in CATIA V5  
+- Exploded views, assemblies, functional clearances  
 
-## 🛠 Technologies & Outils utilisés
+## 🛠 Technologies & Tools Used
 
-- **CAO** : CATIA V5  
-- **Programmation** : Python (numpy, matplotlib, calculs astronomiques)  
-- **Concepts clés** : Rayonnement direct / diffus, suivi solaire, cinématique, dimensionnement mécanique
+- **CAD**: CATIA V5  
+- **Programming**: Python (numpy, matplotlib, astronomical calculations)  
+- **Key Concepts**: Direct/diffuse radiation, solar tracking, kinematics, mechanical sizing  
 
-## Aperçu visuel du projet
-
-<!-- Tu peux remplacer par tes vraies images quand tu les uploades -->
+## Project Visual Overview
 
 <p align="center">
-  <img src="figures/schema-global-systeme.png" alt="Schéma global du système" width="600"/>
-  <br><em>Schéma global du panneau avec suiveur à 1 axe</em>
+  <img src="figures/schema-global-systeme.png" alt="Overall system diagram" width="600"/>
+  <br><em>Overall diagram of the panel with single-axis tracker</em>
 </p>
 
 <p align="center">
-  <img src="figures/solution-catia.png" alt="Modélisation CATIA" width="600"/>
-  <br><em>Assemblage 3D final sous CATIA</em>
+  <img src="figures/solution-catia.png" alt="CATIA Modeling" width="600"/>
+  <br><em>Final 3D assembly in CATIA</em>
 </p>
 
 <p align="center">
-  <img src="figures/panneau-journee.png" alt="Panneau en cours de journée" width="600"/>
-  <br><em>Position du panneau au cours de la journée</em>
+  <img src="figures/panneau-journee.png" alt="Panel During the Day" width="600"/>
+  <br><em>Panel position throughout the day</em>
 </p>
-
-
