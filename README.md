@@ -62,16 +62,8 @@ This project aims to design a **wall-mounted photovoltaic panel** for self-consu
 ## Project Visual Overview
 
 <p align="center">
-  <img src="figures/schema-global-systeme.png" alt="Overall system diagram" width="600"/>
+  <img src="image.png" alt="Overall system diagram" width="400"/>
   <br><em>Overall diagram of the panel with single-axis tracker</em>
 </p>
 
-<p align="center">
-  <img src="figures/solution-catia.png" alt="CATIA Modeling" width="600"/>
-  <br><em>Final 3D assembly in CATIA</em>
-</p>
 
-<p align="center">
-  <img src="figures/panneau-journee.png" alt="Panel During the Day" width="600"/>
-  <br><em>Panel position throughout the day</em>
-</p>
